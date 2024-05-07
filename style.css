@@ -6,19 +6,45 @@ body {
 }
 
 .extension {
-  width: 200px;
-  height: 350px;
-  background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 200px;
+  height: 350px;
+  background-color: grey;
   flex-direction: column;
+  border-radius: 50px;
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
+  width: 200px;
+  border-bottom: solid black;
 }
 
 .folder-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.folder-list ol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
   height: 300px;
+}
+
+.folder-list ol li {
+  display: flex;
+  align-items: center;
+}
+
+.folder-list ol img {
+  width: 20px;
+  height: 20px;
 }
